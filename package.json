@@ -1,0 +1,24 @@
+{
+  "name": "cli-pipe",
+  "version": "0.0.1",
+  "description": "Accept piped data as an argument to your CLI app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajay-gandhi/cli-pipe.git"
+  },
+  "keywords": [
+    "cli",
+    "pipe",
+    "arguments"
+  ],
+  "author": "Ajay Gandhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajay-gandhi/cli-pipe/issues"
+  },
+  "homepage": "https://github.com/ajay-gandhi/cli-pipe#readme"
+}
