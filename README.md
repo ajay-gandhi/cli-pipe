@@ -37,3 +37,12 @@ $ cat somefile.txt | node test.js first   # Piped data and direct args
 
 This module does not alter `process.argv`, so it is compatible with most or all
 other CLI helper modules (e.g. commander, meow).
+
+```js
+// Example with commander
+var program  = require('commander'),
+    get_args = require('cli-pipe');
+
+get_args(program.parse);
+```
+
